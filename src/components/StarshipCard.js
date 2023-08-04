@@ -1,11 +1,7 @@
 import React from "react";
 
 function StarshipCard({ starship }) {
-  return (
-    <div className="card">
-      <h1>{starship.name}</h1>
-    </div>
-  );
+  return <h1 className="card-title">{starship.name}</h1>;
 }
 
 export default StarshipCard;
